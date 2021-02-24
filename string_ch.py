@@ -1,5 +1,6 @@
 
 print('\nзадание 1','\n')
+# Вывести количество букв "а" в слове
 
 word = 'Архангельск'
 word_a = word.lower()
@@ -11,6 +12,7 @@ for i in word_a:
 print(count)
 
 print('\nзадание 2','\n')
+# Вывести количество гласных букв в слове
 
 word = 'Архангельск'
 word_a = word.lower()
@@ -22,18 +24,22 @@ for i in word_a:
 print(count)
 
 print('\nзадание 3','\n')
+# Вывести количество слов в предложении
 
 sentence = 'Мы приехали в гости'
 sentence_len = sentence.split()
 print(len(sentence_len))
 
 print('\nзадание 4','\n')
+# Вывести первую букву каждого слова на отдельной строке
 
 sentence = 'Мы приехали в гости'
 print('\n'.join(sentence[0].lower() for sentence in sentence.split()))
 
 
 print('\nзадание 5','\n')
+
+# Вывести усреднённую длину слова.
 
 sentence = 'Мы приехали в гости'
 count = 0 
